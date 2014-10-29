@@ -4,7 +4,7 @@
 		$GLOBALS['_storage_hooks']['file_exists'] = 'storage_fs_file_exists';
 		$GLOBALS['_storage_hooks']['get_file'] = 'storage_fs_get_file';
 		$GLOBALS['_storage_hooks']['put_file'] = 'storage_fs_put_file';
-		$GLOBALS['_storage_hooks']['delete_file'] = 'storage_fs_put_file';
+		$GLOBALS['_storage_hooks']['delete_file'] = 'storage_fs_delete_file';
 	}
 
 	#################################################################
